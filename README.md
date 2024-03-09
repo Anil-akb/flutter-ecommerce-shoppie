@@ -25,3 +25,4 @@ flutter pub get
 flutter pub run flutter_native_splash:create --path=splash.yaml
 
 <!-- for removing splash screen -->
+flutter pub run flutter_native_splash:remove

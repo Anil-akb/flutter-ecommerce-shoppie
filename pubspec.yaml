@@ -20,6 +20,8 @@ dependencies:
   get: ^4.6.6
   get_storage: ^2.1.1
   flutter_native_splash: ^2.3.13
+  smooth_page_indicator: ^1.1.0
+  iconsax: ^0.0.8
   
 dev_dependencies:
   flutter_test:
@@ -31,10 +33,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - assets/images
-  #   - assets/icons
-  #   - assets/logos
+  assets:
+    - assets/images/on_boarding_images/
+    - assets/logos/
+    - assets/icons/
 
   fonts:
     - family: Poppins
